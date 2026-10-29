@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="heroTitle heroDesc">
-  <title id="heroTitle">Language in. Checked action out.</title>
-  <desc id="heroDesc">A voice command becomes a symbolic command, passes a deterministic action gate, and moves a 3D twin or is refused with a reason.</desc>
+  <title id="heroTitle">Speech, symbols, and a checked action.</title>
+  <desc id="heroDesc">A spoken instruction becomes a symbolic command. A deterministic gate checks it against the twin's state and procedure, then executes it or refuses it with a reason.</desc>
   <defs>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M28 0H0V28" fill="none" stroke="#e4e3dd" stroke-opacity=".05"/>
@@ -30,17 +30,17 @@
   <rect width="1000" height="320" fill="url(#glow)"/>
 
   <text class="kicker" x="48" y="58">NEURO-SYMBOLIC AI · 3D DIGITAL TWINS</text>
-  <text class="headline" x="48" y="112">Language in.</text>
-  <text class="headline" x="48" y="156"><tspan fill="#e8a08f">Checked action</tspan><tspan> out.</tspan></text>
+  <text class="headline" x="48" y="112">Speech, symbols,</text>
+  <text class="headline" x="48" y="156"><tspan fill="#e8a08f">and a checked action.</tspan></text>
 
   <text class="body" x="48" y="196">
     <tspan x="48" dy="0">A spoken instruction becomes a symbolic command.</tspan>
-    <tspan x="48" dy="19">A deterministic gate checks it against twin state</tspan>
-    <tspan x="48" dy="19">and procedure. The twin moves — or refuses.</tspan>
+    <tspan x="48" dy="19">The gate checks it against the twin's state and</tspan>
+    <tspan x="48" dy="19">the procedure, then executes or refuses it.</tspan>
   </text>
 
   <circle cx="52" cy="272" r="3" fill="#6fbf8b"/>
-  <text class="meta" x="64" y="275">0/13 unsafe actions executed · 44 tests</text>
+  <text class="meta" x="64" y="275">A small evaluation of unsafe commands · code and results in the repository</text>
 
   <rect x="560" y="24" width="416" height="272" rx="12" fill="#101214" fill-opacity=".55" stroke="#2b2a26"/>
   <line x1="596" y1="54" x2="596" y2="250" stroke="#45443e" stroke-width="1"/>
@@ -77,7 +77,7 @@
     <path d="M596 222 L596 236 L608 243 M596 236 L584 243" fill="none" stroke="#e8a08f" stroke-width="1.2" opacity=".7"/>
   </g>
   <text class="step-title" x="628" y="232">3D twin</text>
-  <text class="step-sub" x="628" y="248">moves — or refuses</text>
+  <text class="step-sub" x="628" y="248">executes or refuses</text>
 
   <circle cx="596" cy="54" r="3" fill="#e8a08f">
     <animate attributeName="cy" values="54;250;54" dur="7s" repeatCount="indefinite"/>

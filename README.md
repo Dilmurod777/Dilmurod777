@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Language in. Checked action out. A voice command becomes a symbolic command, passes an action gate, and moves a 3D twin or is refused." width="100%">
+  <img src="assets/hero.svg" alt="Speech, symbols, and a checked action. A spoken instruction becomes a symbolic command, passes an action gate, and either moves a 3D twin or is refused with a reason." width="100%">
 </p>
 
 <p align="center">
-  <strong>AI/ML researcher</strong> · PhD candidate · neuro-symbolic AI, 3D digital twins, speech interfaces
+  <strong>AI/ML researcher and PhD candidate</strong> · neuro-symbolic AI, 3D digital twins, speech interfaces
 </p>
 
 <p align="center">
@@ -16,39 +16,39 @@
 
 ## What I build
 
-Speech → symbolic command → deterministic gate → 3D twin. The gate checks twin state, procedure and intent, and refuses unsafe actions with a reason. I also build the web and mobile surfaces around it.
+I work on how a spoken instruction can become a symbolic command that a 3D digital twin can execute safely. A deterministic gate checks the command against the twin's state and the procedure, and refuses it with a reason when it is unsafe. I also build the web and mobile interfaces around it.
 
 ## Selected work
 
 **[voice-to-twin-gate](https://github.com/Dilmurod777/voice-to-twin-gate)** · [live demo](https://voice-to-twin-gate.vercel.app)  
-Spoken command becomes a checked action on a 3D twin.  
-`0/13` unsafe · `44` tests · FastAPI · Ollama · Three.js
+A spoken command becomes a symbolic action on a 3D twin. A deterministic gate decides whether the action runs. Code, evaluation and demo are linked.  
+FastAPI · Ollama · Three.js
 
 **[manual-rag-evals](https://github.com/Dilmurod777/manual-rag-evals)**  
-Three retrievers over FAA AC 43.13-1B, scored on 60 checked questions.  
-`60/60` gold pages · `55/60` cited · `17` tests · FastAPI · Ollama · NumPy
+Three retrieval methods over FAA AC 43.13-1B, evaluated on a set of 60 checked questions. Code and results are in the repository.  
+FastAPI · Ollama · NumPy
 
 **[llm-serving-bench](https://github.com/Dilmurod777/llm-serving-bench)**  
-Ollama vs llama.cpp vs vLLM on one RTX 5090, 200 fixed prompts.  
-`1646 tok/s` · `$0.06/1M` · `51` tests · vLLM · llama.cpp · Ollama
+A comparison of Ollama, llama.cpp and vLLM on one RTX 5090, using 200 fixed prompts. Throughput, latency and cost are in the repository.  
+vLLM · llama.cpp · Ollama
 
 ## Experience
 
 - **AI/ML researcher · Inha University AI Lab** · `2021 — now`  
-  Speech-to-symbolic pipeline for aircraft-maintenance training on HoloLens. The action sandbox cut unsafe actions from `11.8%` to `0.7%`.
+  Speech-to-symbolic pipeline for aircraft-maintenance training on HoloLens. An ablation showed that removing the action sandbox increased unsafe actions.
 - **Full-stack developer · Designmodo** · `2021 — 2022` · remote  
-  React editor, SlateJS, Laravel queues. `52%` faster previews; `24%` less image storage.
+  Worked on a React editor, a SlateJS text editor, and Laravel queues for legacy migrations.
 
 ## Education
 
-- **Integrated MS/PhD · Inha University** · `2021 — now` · CGPA `4.20/4.5`
-- **BSc · Inha University in Tashkent** · `2016 — 2020` · First of 270 · `4.48/4.5`
+- **Integrated MS/PhD · Inha University, Incheon** · `2021 — now`
+- **BSc · Inha University in Tashkent** · `2016 — 2020` · with honors
 
 ## Publication
 
 Siyaev, A.; **Valiev, D.**; Jo, G.-S. **Interaction with Industrial Digital Twin Using Neuro-Symbolic Reasoning.** *Sensors* 2023, 23(3), 1729. [doi:10.3390/s23031729](https://doi.org/10.3390/s23031729)
 
-## Toolbox
+## Tools I use
 
 | Area | Tools |
 |---|---|
@@ -66,4 +66,4 @@ Siyaev, A.; **Valiev, D.**; Jo, G.-S. **Interaction with Industrial Digital Twin
   <a href="https://linkedin.com/in/dilmurod-valiev">LinkedIn</a>
 </p>
 
-<p align="center"><sub>Open to digital twin, industrial simulation and applied ML roles.</sub></p>
+<p align="center"><sub>Research interests: digital twin, industrial simulation and applied ML.</sub></p>
