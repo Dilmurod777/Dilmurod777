@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Speech, symbols, and a checked action. A spoken instruction becomes a symbolic command, passes an action gate, and either moves a 3D twin or is refused with a reason." width="100%">
+  <img src="assets/hero-speech.svg" alt="Speech, symbols, and a checked action. A spoken instruction becomes a symbolic command, passes an action gate, and either moves a 3D twin or is refused with a reason." width="100%">
 </p>
 
 <p align="center">
