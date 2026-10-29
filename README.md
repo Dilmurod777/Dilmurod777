@@ -59,11 +59,4 @@ Siyaev, A.; **Valiev, D.**; Jo, G.-S. **Interaction with Industrial Digital Twin
 
 ---
 
-<p align="center">
-  <a href="https://dilmurod777.github.io/resume.pdf"><strong>Full CV (PDF)</strong></a> ·
-  <a href="https://dilmurod777.github.io">dilmurod777.github.io</a> ·
-  <a href="https://github.com/Dilmurod777">GitHub</a> ·
-  <a href="https://linkedin.com/in/dilmurod-valiev">LinkedIn</a>
-</p>
-
 <p align="center"><sub>Research interests: digital twin, industrial simulation and applied ML.</sub></p>
