@@ -20,11 +20,17 @@ Speech → symbolic command → deterministic gate → 3D twin. The gate checks 
 
 ## Selected work
 
-| Project | What it does | Numbers |
-|---|---|---|
-| **[voice-to-twin-gate](https://github.com/Dilmurod777/voice-to-twin-gate)**<br>[live demo](https://voice-to-twin-gate.vercel.app)<br><sub>FastAPI · Ollama · Three.js</sub> | Spoken command becomes a checked action on a 3D twin. | `0/13` unsafe<br>`44` tests |
-| **[manual-rag-evals](https://github.com/Dilmurod777/manual-rag-evals)**<br><sub>FastAPI · Ollama · NumPy</sub> | Three retrievers over FAA AC 43.13-1B, scored on 60 checked questions. | `60/60` gold pages<br>`55/60` cited<br>`17` tests |
-| **[llm-serving-bench](https://github.com/Dilmurod777/llm-serving-bench)**<br><sub>vLLM · llama.cpp · Ollama</sub> | Ollama vs llama.cpp vs vLLM on one RTX 5090, 200 fixed prompts. | `1646 tok/s`<br>`$0.06/1M`<br>`51` tests |
+**[voice-to-twin-gate](https://github.com/Dilmurod777/voice-to-twin-gate)** · [live demo](https://voice-to-twin-gate.vercel.app)  
+Spoken command becomes a checked action on a 3D twin.  
+`0/13` unsafe · `44` tests · FastAPI · Ollama · Three.js
+
+**[manual-rag-evals](https://github.com/Dilmurod777/manual-rag-evals)**  
+Three retrievers over FAA AC 43.13-1B, scored on 60 checked questions.  
+`60/60` gold pages · `55/60` cited · `17` tests · FastAPI · Ollama · NumPy
+
+**[llm-serving-bench](https://github.com/Dilmurod777/llm-serving-bench)**  
+Ollama vs llama.cpp vs vLLM on one RTX 5090, 200 fixed prompts.  
+`1646 tok/s` · `$0.06/1M` · `51` tests · vLLM · llama.cpp · Ollama
 
 ## Experience
 
